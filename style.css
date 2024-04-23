@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', sans-serif;
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding: 2vh;
+    background-color:rgb(255, 249, 223);
+}
+
+.pic{
+    width: 30vw;
+    height: 30vh;
+    margin: 1vh;
+}
+
